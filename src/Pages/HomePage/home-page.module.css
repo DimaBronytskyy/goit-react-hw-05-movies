@@ -1,0 +1,11 @@
+.text{
+    /* font-size: 18px; */
+    color: #564162;
+    /* margin-left: 30px; */
+    padding: 40px 50px;
+    font-weight: normal;
+}
+
+.back{
+    background-color: rgb(220, 225, 226);
+}

@@ -1,0 +1,26 @@
+.menu{
+    background-color: rgb(189, 182, 182);
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.link{
+    color: rgb(87, 72, 101);
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+padding: 10px 15px;
+}
+
+.link:global(.active){
+    color: rgb(64, 128, 217);
+    text-decoration: underline;
+}
+
+.link:hover{
+        color: rgb(87, 172, 201);
+
+}
